@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+npx tailwindcss -i style.css -o styles.css --watch
+
+*/
+*{
+    box-sizing: border-box;
+}
+
+.myfont{
+    font-family: 'Inter',sans-serif;
+}
